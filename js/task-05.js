@@ -4,7 +4,7 @@ const elts = {
 };
 
 elts.inputEl.addEventListener("input", addValueInput);
-elts.inputEl.addEventListener("blur", checkInput);
+elts.inputEl.addEventListener("input", checkInput);
 
 function addValueInput() {
   elts.nameInputEl.textContent = elts.inputEl.value;
